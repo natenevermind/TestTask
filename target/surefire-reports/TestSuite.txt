@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 5.733 sec <<< FAILURE!
+runScenario(EPAM.testrunner.TestRunner)  Time elapsed: 0.4 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at EPAM.config.BaseTest.openPage(BaseTest.java:32)
+	at EPAM.tasks.CheckTitle.openGoogle(CheckTitle.java:18)
+	at ✽.Open https://www.google.com/(file:///C:/Users/Admin/IdeaProjects/TestTaskEpam/TestTask/src/test/java/EPAM/features/checkDomain.feature:5)
+
+runScenario(EPAM.testrunner.TestRunner)  Time elapsed: 0.02 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at EPAM.config.BaseTest.openPage(BaseTest.java:32)
+	at EPAM.tasks.CheckTitle.openGoogle(CheckTitle.java:18)
+	at ✽.Open https://www.google.com/(file:///C:/Users/Admin/IdeaProjects/TestTaskEpam/TestTask/src/test/java/EPAM/features/checkTitle.feature:5)
+
+BrowserClose(EPAM.config.BaseTest)  Time elapsed: 0.095 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at EPAM.config.BaseTest.BrowserClose(BaseTest.java:26)
+

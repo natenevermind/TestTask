@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="3" name="TestSuite" time="0.515" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.4+10-b520.11"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3\jbr\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Admin\IdeaProjects\TestTaskEpam\TestTask"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o"/>
+    <property name="java.vendor.url" value="https://www.jetbrains.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Admin\IdeaProjects\TestTaskEpam\TestTask"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.4+10-b520.11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3\jbr\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Git\cmd;C:\Program Files (x86)\Common Files\Apple\Internet Services\;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Admin"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.3 verify"/>
+    <property name="java.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3\jbr"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="11.0.4"/>
+    <property name="java.vendor" value="JetBrains s.r.o"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="idea.version2019.3" value="true"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.vendor.url.bug" value="https://youtrack.jetbrains.com"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="EPAM.testrunner.TestRunner" name="runScenario" time="0.4">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at EPAM.config.BaseTest.openPage(BaseTest.java:32)
+	at EPAM.tasks.CheckTitle.openGoogle(CheckTitle.java:18)
+	at ✽.Open https://www.google.com/(file:///C:/Users/Admin/IdeaProjects/TestTaskEpam/TestTask/src/test/java/EPAM/features/checkDomain.feature:5)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@21bcffb5
+2020-01-02 16:58:59,596 main DEBUG Apache Log4j Core 2.13.0 initializing configuration XmlConfiguration[location=C:\Users\Admin\IdeaProjects\TestTaskEpam\TestTask\target\classes\log4j2.xml]
+2020-01-02 16:58:59,622 main DEBUG Installed 1 script engine
+2020-01-02 16:59:00,966 main DEBUG Oracle Nashorn version: 11.0.4, language: ECMAScript, threading: Not Thread Safe, compile: true, names: [nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript], factory class: jdk.nashorn.api.scripting.NashornScriptEngineFactory
+2020-01-02 16:59:00,971 main DEBUG Took 0,003711 seconds to load 0 plugins from package org.apache.logging.log4j.test
+2020-01-02 16:59:00,973 main DEBUG PluginManager &apos;Core&apos; found 122 plugins
+2020-01-02 16:59:00,975 main DEBUG PluginManager &apos;Level&apos; found 0 plugins
+2020-01-02 16:59:00,997 main DEBUG PluginManager &apos;Lookup&apos; found 15 plugins
+2020-01-02 16:59:01,004 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+2020-01-02 16:59:01,046 main DEBUG PluginManager &apos;TypeConverter&apos; found 26 plugins
+2020-01-02 16:59:01,070 main DEBUG createFilter(level=&quot;TRACE&quot;, onMatch=&quot;null&quot;, onMismatch=&quot;null&quot;)
+2020-01-02 16:59:01,071 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2020-01-02 16:59:01,106 main DEBUG PatternLayout$Builder(pattern=&quot;%m %n&quot;, PatternSelector=null, Configuration(XMLConfigTest), Replace=null, charset=&quot;null&quot;, alwaysWriteExceptions=&quot;null&quot;, disableAnsi=&quot;null&quot;, noConsoleNoAnsi=&quot;null&quot;, header=&quot;null&quot;, footer=&quot;null&quot;)
+2020-01-02 16:59:01,107 main DEBUG PluginManager &apos;Converter&apos; found 44 plugins
+2020-01-02 16:59:01,109 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2020-01-02 16:59:01,143 main DEBUG ConsoleAppender$Builder(target=&quot;null&quot;, follow=&quot;null&quot;, direct=&quot;null&quot;, bufferedIo=&quot;null&quot;, bufferSize=&quot;null&quot;, immediateFlush=&quot;null&quot;, ignoreExceptions=&quot;null&quot;, PatternLayout(%m %n), name=&quot;STDOUT&quot;, Configuration(XMLConfigTest), Filter=null, ={})
+2020-01-02 16:59:01,154 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2020-01-02 16:59:01,156 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2020-01-02 16:59:01,157 main DEBUG createAppenders(={STDOUT})
+2020-01-02 16:59:01,158 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2020-01-02 16:59:01,161 main DEBUG createAppenderRef(ref=&quot;STDOUT&quot;, level=&quot;null&quot;, Filter=null)
+2020-01-02 16:59:01,162 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2020-01-02 16:59:01,175 main DEBUG createLogger(additivity=&quot;null&quot;, level=&quot;DEBUG&quot;, includeLocation=&quot;null&quot;, ={STDOUT}, ={}, Configuration(XMLConfigTest), Filter=null)
+2020-01-02 16:59:01,181 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2020-01-02 16:59:01,184 main DEBUG createLoggers(={root})
+2020-01-02 16:59:01,185 main DEBUG Configuration XmlConfiguration[location=C:\Users\Admin\IdeaProjects\TestTaskEpam\TestTask\target\classes\log4j2.xml] initialized
+2020-01-02 16:59:01,186 main DEBUG Starting configuration XmlConfiguration[location=C:\Users\Admin\IdeaProjects\TestTaskEpam\TestTask\target\classes\log4j2.xml]
+2020-01-02 16:59:01,187 main DEBUG Started configuration XmlConfiguration[location=C:\Users\Admin\IdeaProjects\TestTaskEpam\TestTask\target\classes\log4j2.xml] OK.
+2020-01-02 16:59:01,192 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2020-01-02 16:59:01,195 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2020-01-02 16:59:01,196 main DEBUG Appender DefaultConsole-1 stopped with status true
+2020-01-02 16:59:01,197 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@67d48005 OK
+2020-01-02 16:59:01,407 main DEBUG Registering MBean org.apache.logging.log4j2:type=8bcc55f
+2020-01-02 16:59:01,416 main DEBUG Registering MBean org.apache.logging.log4j2:type=8bcc55f,component=StatusLogger
+2020-01-02 16:59:01,420 main DEBUG Registering MBean org.apache.logging.log4j2:type=8bcc55f,component=ContextSelector
+2020-01-02 16:59:01,434 main DEBUG Registering MBean org.apache.logging.log4j2:type=8bcc55f,component=Loggers,name=
+2020-01-02 16:59:01,438 main DEBUG Registering MBean org.apache.logging.log4j2:type=8bcc55f,component=Appenders,name=STDOUT
+2020-01-02 16:59:01,444 main DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+2020-01-02 16:59:01,447 main DEBUG Reconfiguration complete for context[name=8bcc55f] at URI C:\Users\Admin\IdeaProjects\TestTaskEpam\TestTask\target\classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@2f6e28bc) with optional ClassLoader: null
+2020-01-02 16:59:01,448 main DEBUG Shutdown hook enabled. Registering a new one.
+2020-01-02 16:59:01,451 main DEBUG LoggerContext[name=8bcc55f, org.apache.logging.log4j.core.LoggerContext@2f6e28bc] started OK.
+</system-out>
+    <system-err>Warning: Nashorn engine is planned to be removed from a future JDK release
+</system-err>
+  </testcase>
+  <testcase classname="EPAM.testrunner.TestRunner" name="runScenario" time="0.02">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at EPAM.config.BaseTest.openPage(BaseTest.java:32)
+	at EPAM.tasks.CheckTitle.openGoogle(CheckTitle.java:18)
+	at ✽.Open https://www.google.com/(file:///C:/Users/Admin/IdeaProjects/TestTaskEpam/TestTask/src/test/java/EPAM/features/checkTitle.feature:5)
+</failure>
+  </testcase>
+  <testcase classname="EPAM.config.BaseTest" name="BrowserClose" time="0.095">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at EPAM.config.BaseTest.BrowserClose(BaseTest.java:26)
+</failure>
+    <system-out>
+&amp;#27;[31mFailed scenarios:&amp;#27;[0m
+&amp;#27;[31mfile:///C:/Users/Admin/IdeaProjects/TestTaskEpam/TestTask/src/test/java/EPAM/features/checkDomain.feature:3&amp;#27;[0m# Check domain on pages 1-5 in google search
+&amp;#27;[31mfile:///C:/Users/Admin/IdeaProjects/TestTaskEpam/TestTask/src/test/java/EPAM/features/checkTitle.feature:3&amp;#27;[0m# Check title of first link opened in google search
+
+2 Scenarios (&amp;#27;[31m2 failed&amp;#27;[0m)
+9 Steps (&amp;#27;[31m2 failed&amp;#27;[0m, &amp;#27;[36m6 skipped&amp;#27;[0m, &amp;#27;[33m1 undefined&amp;#27;[0m)
+0m0,490s
+
+
+java.lang.NullPointerException
+	at EPAM.config.BaseTest.openPage(BaseTest.java:32)
+	at EPAM.tasks.CheckTitle.openGoogle(CheckTitle.java:18)
+	at ?.Open https://www.google.com/(file:///C:/Users/Admin/IdeaProjects/TestTaskEpam/TestTask/src/test/java/EPAM/features/checkDomain.feature:5)
+
+java.lang.NullPointerException
+	at EPAM.config.BaseTest.openPage(BaseTest.java:32)
+	at EPAM.tasks.CheckTitle.openGoogle(CheckTitle.java:18)
+	at ?.Open https://www.google.com/(file:///C:/Users/Admin/IdeaProjects/TestTaskEpam/TestTask/src/test/java/EPAM/features/checkTitle.feature:5)
+
+
+You can implement missing steps with the snippets below:
+
+@Then(&quot;Expected domain {string} should be present on pages {int}-{int}&quot;)
+public void expected_domain_should_be_present_on_pages(String string, Integer int1, Integer int2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+</system-out>
+  </testcase>
+</testsuite>
